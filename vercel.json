@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
     "version": 2,
     "builds": [
@@ -7,4 +8,15 @@
       { "src": "/api/generateResume", "dest": "/api/generateResume.js" }
     ]
   }
+=======
+{
+    "version": 2,
+    "builds": [
+      { "src": "api/generateResume.js", "use": "@vercel/node" }
+    ],
+    "routes": [
+      { "src": "/api/generateResume", "dest": "/api/generateResume.js" }
+    ]
+  }
+>>>>>>> 12a867afb763429b08fd9ff069bffaadc3463547
   
