@@ -1,0 +1,10 @@
+{
+    "version": 2,
+    "builds": [
+      { "src": "api/generateResume.js", "use": "@vercel/node" }
+    ],
+    "routes": [
+      { "src": "/api/generateResume", "dest": "/api/generateResume.js" }
+    ]
+  }
+  
