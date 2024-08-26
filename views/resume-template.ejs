@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Resume</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 20px; }
+        .header { text-align: center; }
+        .section { margin-bottom: 20px; }
+        .section-title { font-size: 18px; font-weight: bold; margin-bottom: 10px; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1><%= resumeData.name %></h1>
+        <p><%= resumeData.email %> | <%= resumeData.phone %></p>
+    </div>
+    <div class="section">
+        <div class="section-title">Education</div>
+        <p><%= resumeData.education %></p>
+    </div>
+    <div class="section">
+        <div class="section-title">Experience</div>
+        <p><%= resumeData.experience %></p>
+    </div>
+    <div class="section">
+        <div class="section-title">Skills</div>
+        <p><%= resumeData.skills %></p>
+    </div>
+</body>
+</html>
